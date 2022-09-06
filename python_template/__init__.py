@@ -1,0 +1,1 @@
+from python_template.core import simple_func
