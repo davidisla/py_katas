@@ -4,4 +4,7 @@ class fizzbuzz():
         if value == 3:
             return "fizz"
 
+        if value == 5:
+            return "buzz"
+
         return str(value)
