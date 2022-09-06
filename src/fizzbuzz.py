@@ -2,6 +2,9 @@ class fizzbuzz():
 
     @classmethod
     def do(cls, value):
+        if cls.isMultipleOf(value, 15):
+            return "fizzbuzz"
+
         if cls.isMultipleOf(value, 3):
             return "fizz"
 
