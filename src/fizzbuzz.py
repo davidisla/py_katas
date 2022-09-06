@@ -1,4 +1,4 @@
 class fizzbuzz():
 
     def do(value):
-        return ""
+        return str(value)
