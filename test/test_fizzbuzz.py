@@ -19,3 +19,7 @@ def test_return_buzz_for_multiples_of_5():
     assert fizzbuzz.do(20) == "buzz"
     assert fizzbuzz.do(55) == "buzz"
     
+def test_return_fizzbuzz_for_multiples_of_3_and_5():
+    assert fizzbuzz.do(15) == "fizzbuzz"
+    assert fizzbuzz.do(30) == "fizzbuzz"
+    assert fizzbuzz.do(300) == "fizzbuzz"    
